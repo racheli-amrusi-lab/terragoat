@@ -1,0 +1,29 @@
+# AWS Root / Admin Credentials
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# Unencrypted RSA Private Key
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAzF5XEXAMPLEKEYDATA1234567890ABCDEFGH
+-----END RSA PRIVATE KEY-----
+
+# GitHub Fine-Grained / Personal Access Token
+GITHUB_TOKEN=ghp_1234567890abcdefghijklmnopqrstuvwxyz
+
+# Google Cloud Service Account Private Key JSON (Plaintext string representation)
+GCP_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3EXAMPLE...\n-----END PRIVATE KEY-----"
+
+# Azure Active Directory / Service Principal Client Secret
+AZURE_CLIENT_SECRET=3q~1234567890abcdefghijklmnopqrstuvwx~.EXAMPLE
+
+# Stripe Production Live Secret Key
+STRIPE_LIVE_KEY=sk_live_51Nx1234567890abcdefghijklmnopqrstuvwxyz1234567890
+
+# OpenAI Production API Key
+OPENAI_API_KEY=sk-proj-1234567890abcdefghijklmnopqrstuvwxyz1234567890abc
+
+# Slack Bot User OAuth Token
+SLACK_BOT_TOKEN=xoxb-123456789012-1234567890123-456789012345678901234567
+
+# High-Risk Database Admin Connection String
+DATABASE_URL=postgres://root:SuperSecretAdminPass123!@db.production.internal:5432/main_db
